@@ -1,7 +1,10 @@
 app:
   php:
     version: "8.3"
-  environment_variables: []
+  environment_variables:
+    - name: PRODUCT_ANALYTICS
+      value: 1
+      scope: RUN
 services:
   mysql:
     version: "8.0"
