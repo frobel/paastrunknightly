@@ -1,0 +1,9 @@
+app:
+  php:
+    version: "8.3"
+  environment_variables: []
+services:
+  mysql:
+    version: "8.0"
+  opensearch:
+    enabled: false
